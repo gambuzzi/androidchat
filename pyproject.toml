@@ -5,8 +5,8 @@ bundle = "it.gambuzzi"
 version = "0.0.1"
 url = "https://gambuzzi.it/androidchat"
 license = "MIT license"
-author = "Malagoli Chiara"
-author_email = "chiara@gambuzzi.it"
+author = "Gambuzzi Roberto"
+author_email = "gambuzzi@gmail.com"
 
 [tool.briefcase.app.androidchat]
 formal_name = "Android Chat"
@@ -22,8 +22,7 @@ test_sources = [
 ]
 
 requires = [
-    "zmq",	
-    "zeroconf"
+    "local-broadcast==0.0.2",	
 ]
 test_requires = [
     "pytest",
